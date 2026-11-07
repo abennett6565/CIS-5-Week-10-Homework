@@ -12,7 +12,7 @@ Work without a working video link is incomplete.
 
 The video is half the grade. Show the run, then explain which variables each function changed and why.
 
-**Your demo:** _add your link here_
+**Your demo:** https://drive.google.com/file/d/1UT-vFahSv-vQoNCrUAHg3MYxa9ua0-mE/view?usp=sharing
 
 
 ## What to build
@@ -35,6 +35,12 @@ Three small functions that work on one array of scores. Each function receives i
 - Use `const` on array parameters the function only reads
 - README: one sentence for each function saying how its data gets in and out
 
+## Required Function data descriptions
+- `printScores`: takes in constant array to prevent changing of values within the array
+- `curve`: takes in an array which by default is given as a pointer to an address for the first index of the array, changes the values at each index in the array via index access (reference)
+- `minMax`: takes in lo and hi variables as reference and changes the valeus of the original variables via reference
+- `findScore`: takes in where variable as a pointer and assigns a value to the original variable via dereference
+
 ## Sample session
 
 ```
@@ -51,7 +57,7 @@ After curve +5: 77 93 100 65 86
 
 ## Environment
 
-VS 2022 · **GitHub Codespaces** · Replit · library machines
+VSCode · **g++** · home pc
 
 ## Deliverables
 

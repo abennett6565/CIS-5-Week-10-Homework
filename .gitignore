@@ -1,0 +1,9 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+.idea/
+.vscode/
+
+# Godot temporary swap/save files
+*.tmp
+/main.exe
